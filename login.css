@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding:0px ;
+}
+body{
+    
+}
+section{
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        margin-inline:35%;
+        margin-block:10%;
+        padding-block:10px;
+        padding-inline: 0px;
+        border: 2px solid rgb(237, 239, 237);
+ }
+ .login-card{
+    
+ }
+ .login-card h1{
+font-size: 25px;
+ }
+ @media screen and (max-width:850px) {
+    section{
+        /* background-color: blue; */
+        margin-inline:20%;
+        margin-block:10%;
+    }
+}
